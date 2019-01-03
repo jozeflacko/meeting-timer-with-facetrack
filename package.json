@@ -1,5 +1,5 @@
 {
-  "name": "meeting-timer-react",
+  "name": "meeting-timer-with-facetrack",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

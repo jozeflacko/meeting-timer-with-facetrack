@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Camera from '../../components/camera/camera';
 import TrackFaces from '../../components/track-faces/track-faces';
+import Meeting from '../../components/meeting/meeting';
 import './main.css';
 
 interface IState {
@@ -32,7 +33,7 @@ export default class Main extends Component<{},IState> {
       <div className="container">     
         <Camera dimention={this.dimention}/> 
         <TrackFaces callback={this.callback} dimention={this.dimention}/> 
-       
+        <Meeting/>
       </div> 
     );
   }
